@@ -122,11 +122,11 @@
                                 <input type="text" required="" placeholder="TELEFONE *" class="form-control">
                             </div>
                             <div class="form-group">
-                                <select>
-                                    <option>SABORES</option>
-                                    <option>QUATRO QUEIJOS</option>
-                                    <option>CALABRESA</option>
-                                    <option>BACON</option>
+                                <select class="form-control">
+                                    <option class="opcao">PResunto</option>
+                                    <option class="opcao">QUATRO QUEIJOS</option>
+                                    <option class="opcao">CALABRESA</option>
+                                    <option class="opcao">BACON</option>
                                 </select>
                             </div>
                             <div class="form-group">
@@ -169,7 +169,7 @@
 
     <!-- Menu Section -->
     <div class="menu-section container-fluid no-padding">
-        <div class="section-padding"></div>
+
         <!-- Container -->
         <div class="container">
             <!-- Section Header -->
@@ -266,11 +266,10 @@
                 </div>
             </div>
         </div><!-- Container /- -->
-        <div class="section-padding"></div>
     </div><!-- Menu Section /- -->
-    
+    <div class="section-padding hidden-md hidden-lg"></div>
     <!-- incluindo carousel do instagram -->
-<!--    <div id="instafeed" class="instafeed"></div>-->
+    <div id="instafeed" class="instafeed"></div>
 </main>
 
 

@@ -314,7 +314,7 @@
 	position: relative;
 }
 .about-section .col-md-5.col-sm-5.col-xs-6.about-img {
-	margin-top: -120px;
+	margin-top: 0;
 }
 .about-section .col-md-5.col-sm-5.col-xs-6.about-img-1 {
 	margin-top: 0;
@@ -734,7 +734,7 @@
 	width: 570px;
 }
 .order-section .order-box::before {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(255, 0, 0, 0.8);
 	content: "";
 	display: inline-block;
 	position: absolute;
@@ -756,8 +756,8 @@
 	content: "";
 	width: 0;
 	height: 0;
-	border-left: 287px solid transparent;
-	border-right: 284px solid transparent;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
 	border-top: 55px solid #ff9c00;
 	position: absolute;
 	top: 100%;
@@ -802,8 +802,16 @@
 	color: #fbfbfb;
 	width: 100%;
 }
+
 .order-section .order-box .order-form  select option {
+	color: #000;
+}
+select option .opcao,
+select option .opcao:active,
+select option .opcao:focus,
+select option .opcao:hover {
 	color: #212121;
+        background-color: #ff0000;
 }
 .order-section .order-box .order-form textarea.form-control  {
 	height: 90px;
@@ -973,7 +981,7 @@
 /* - Order Section 2 */
 
 .order-section-2 {
-	background-image: url("../images/order-bg.jpg");
+	background-image: url("../images/banner-2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;

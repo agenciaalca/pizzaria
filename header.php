@@ -10,24 +10,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="Pizza na Pedra A melhor pizza da cidade! Peça agora! 📞 62. 3278-5151 / 📱 62. 99235-8068 📍 Rua 115, Quadra 41-A, Lote 9 – Setor Sul">
+        <meta name="author" content="Agência alca">
 
         <title>PIZZA NA PEDRA</title>
 
         <!-- Standard Favicon -->
-        <link rel="icon" type="image/x-icon" href="images//favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 
-        <!-- For iPhone 4 Retina display: -->
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images//apple-touch-icon-114x114-precomposed.png">
-
-        <!-- For iPad: -->
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images//apple-touch-icon-72x72-precomposed.png">
-
-        <!-- For iPhone: -->
-        <link rel="apple-touch-icon-precomposed" href="images//apple-touch-icon-57x57-precomposed.png">		
-
+       
         <!-- Custom - Theme CSS -->
+        
+        <link rel="stylesheet" type="text/css" href="libraries/lib.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.css">
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
         <link rel="stylesheet" type="text/css" href="style.css">
 
         <!--[if lt IE 9]>
@@ -54,15 +51,15 @@
                 <!-- Top Header  -->
                 <div class="top-header container-fluid no-padding">
                     <div class="row">
-                        <div class="col-md-5 col-sm-6 col-xs-5 our-contacts">
+                        <div class="col-md-4 col-sm-6 col-xs-5 our-contacts">
                             <p class="foco">DELIVERY</p>
                             <p><i class="fa fa-phone"></i>62 3278-5151</p>
                             <p><i class="fa fa-whatsapp"></i>62 99235-8068</p>
                         </div>
-                        <div class="col-md-2 col-sm-2 col-xs-12 logo-block">
+                        <div class="col-md-4 col-sm-2 col-xs-12 logo-block">
                             <a title="Logo" href="index.html" class="navbar-brand"><img src="images/logo-pizza-na-pedra.png" alt="logo" /></a>
                         </div>
-                        <div class="col-md-5 col-sm-6 col-xs-7 header-social">
+                        <div class="col-md-4 col-sm-6 col-xs-7 header-social">
                             <ul>
                                 <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
