@@ -83,7 +83,7 @@
 }
 .photo-slider .carousel-caption h3 {
 	color: #fff;
-	font-family: 'Dancing Script', cursive;
+	font-family: Caveat;
 	font-size: 60px;
 	letter-spacing: -1.2px;
 	margin-bottom: 24px;
@@ -358,9 +358,9 @@
 	color: #FF0000;
 }
 .about-section .about-box a.view-more {
-	background-color: #FF0000;
+	background-color: #ff9c00;
 	border-radius: 50px;
-	border: 1px solid #FF0000;
+	border: 1px solid #ff9c00;
 	color: #222;
 	display: inline-block;
 	font-family: 'Poppins', sans-serif;
@@ -502,7 +502,7 @@
 	font-weight: 600;
 }
 .menu-section .menu-details-tab .menu-center .menu-content-box a.buy-now {
-	color: #222;
+	color: #FFF;
 	background-color: #FF0000;
 	border: 1px solid #FF0000;
 	border-radius: 50px;
@@ -705,7 +705,6 @@
 .team-section .team-hover-box ul li a:hover {
 	color: #FF0000;
 }
-
 /* - Order Section */
 .order-section .order-left {
 	padding-top: 100px; 
@@ -745,7 +744,7 @@
 	bottom: 0;
 }
 .order-section .order-box .order-title {
-	background-color: #FF0000;
+	background-color: #ff9c00;
 	display: block;
 	max-width: 570px;
 	margin: 0 auto 40px;
@@ -759,7 +758,7 @@
 	height: 0;
 	border-left: 287px solid transparent;
 	border-right: 284px solid transparent;
-	border-top: 55px solid #FF0000;
+	border-top: 55px solid #ff9c00;
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -767,9 +766,9 @@
 	margin: 0 auto;
 }
 .order-section .order-box .order-title h3 {
-	color: #222;
+	color: #ff0000;
 	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
+	font-family: Caveat;
 	font-weight: 600;
 	letter-spacing: 1.4px;
 	margin-top: 15px;
@@ -826,13 +825,13 @@
 	box-shadow: none;
 }
 .order-section input[type="submit"] {
-	color: #222;
+	color: #ff0000;
 	font-size: 14px;
 	display: inline-block;
 	font-weight: 600;
 	font-family: 'Poppins', sans-serif;
-	background-color: #FF0000;
-	border: 1px solid #FF0000;
+	background-color: #ff9c00;
+	border: 1px solid #ff9c00;
 	border-radius: 50px;
 	padding: 12px 40px;
 	margin-top: 15px;
@@ -845,9 +844,9 @@
     transition: all 1s ease 0s;
 }
 .order-section input[type="submit"]:hover {
-	color: #FF0000;
+	color: #ff0000;
 	background-color: #fff;
-	border: 1px solid #FF0000;
+	border: 1px solid #ff9c00;
 }
 
 .order-section .order-right-content {
@@ -888,7 +887,7 @@
 	padding-right: 20px;
 }
 .order-section .call-us p a {
-	color: #FF0000;
+	color: #ff9c00;
 	text-decoration: none;
 }
 .order-section h3.delivery-heading {
@@ -900,7 +899,7 @@
 	text-transform: uppercase;
 }
 .order-section h3.delivery-heading  span {
-	color: #FF0000;
+	color: #ff9c00;
 }
 
 /* - Order Section 1 */
@@ -952,7 +951,7 @@
 }
 .order-section-1 .counter-section .counter-box i {
 	font-size: 25px;
-	color: #FF0000;
+	color: #ff9c00;
 	padding-right: 10px;
 }
 .order-section-1 .counter-section .counter-box h3 {

@@ -7,21 +7,25 @@
         <div id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div role="listbox" class="carousel-inner">
                 <div class="item active">
-                    <img width="1920" height="960" alt="slider" src="images/slider-1.jpg">
+                    <img width="1920" height="960" alt="slider" src="images/banner-1.png">
                     <div class="carousel-caption">
-                        <img src="images/slider-ic.png" alt="slider-ic" width="131" height="129">
                         <h3>Pizza makes me think that anything is possible</h3>
-                        <img src="images/section-seprator-1.png" alt="section-seprator" width="76" height="10" />
                         <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p>
                     </div>
                     <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span>
                 </div>
                 <div class="item">
-                    <img width="1920" height="960" alt="slider" src="images/slider-1.jpg">
+                    <img width="1920" height="960" alt="slider" src="images/banner-2.png">
                     <div class="carousel-caption">
-                        <img src="images/slider-ic.png" alt="slider-ic" width="131" height="129">
                         <h3>Pizza makes me think that anything is possible</h3>
-                        <img src="images/section-seprator-1.png" alt="section-seprator" width="76" height="10" />
+                        <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p>
+                    </div>
+                    <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span>
+                </div>
+                <div class="item">
+                    <img width="1920" height="960" alt="slider" src="images/banner-3.png">
+                    <div class="carousel-caption">
+                        <h3>Pizza makes me think that anything is possible</h3>
                         <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p>
                     </div>
                     <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span>
@@ -40,43 +44,43 @@
     <div id="features-section" class="features-section container-fluid no-padding">
         <div class="section-padding"></div>
         <div class="top-image">
-            <img src="images/features-top-img.png" alt="features-top-img" />
+            <img src="images/img_1.png" alt="features-top-img" />
         </div>
         <!-- Container -->
         <div class="container">
             <!-- Section Header -->
             <div class="section-header">
-                <h3>Our Spicy Creature</h3>
-                <h5>features</h5>
+                <h3>Nossos Serviços</h3>
+                <h5>venha conhecer</h5>
                 <img src="images/section-seprator.png" alt="section-seprator" width="76" height="10" />
             </div><!-- Section Header /- -->
             <div class="col-md-4 col-xs-6 col-xs-6">
                 <div class="features-content">
-                    <img src="images/features-ic-1.png" alt="features-ic" width="89" height="106" />
-                    <h3>delicious receipe</h3>
+                    <img src="images/pizza_1.png" alt="features-ic"  />
+                    <h3>pizzada</h3>
                     <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper.</p>
-                    <a href="#" title="Read More">Read More</a>
+                    <a href="#" title="Read More">peça já</a>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6 col-xs-6">
                 <div class="features-content">
-                    <img src="images/features-ic-2.png" alt="features-ic" width="105" height="90" />
-                    <h3>global flavours</h3>
+                    <img src="images/pizza_2.png" alt="features-ic"  />
+                    <h3>nossa pizzaria</h3>
                     <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper.</p>
-                    <a href="#" title="Read More">Read More</a>
+                    <a href="#" title="Read More">peça já</a>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6 col-xs-6">
                 <div class="features-content">
-                    <img src="images/features-ic-3.png" alt="features-ic" width="91" height="106" />
-                    <h3>delightful taste</h3>
+                    <img src="images/pizza_3.png" alt="features-ic"  />
+                    <h3>delivery</h3>
                     <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper.</p>
-                    <a href="#" title="Read More">Read More</a>
+                    <a href="#" title="Read More">peça já</a>
                 </div>
             </div>
         </div><!-- Container /- -->
         <div class="bottom-image">
-            <img src="images/features-bottom-img.png" alt="features-bottom-img" />
+            <img src="images/img_2.png" alt="features-bottom-img" />
         </div>
         <div class="section-padding"></div>
     </div><!-- Features Section /- -->
@@ -89,43 +93,44 @@
             <div class="col-md-5 col-sm-5 col-xs-12 order-right-content">
                 <!-- Section Header -->
                 <div class="section-header left-heder">
-                    <h3>Make Your Order</h3>
-                    <h5>BOOK ONLINE</h5>
-                    <img src="images/section-seprator-1.png" alt="section-seprator" width="76" height="10" />
+                    <h3 class="corAmarelo">MONTE SUA PIZZA</h3>
+                    <h5>FAÇA SEU PEDIDO</h5>
+                    <img src="images/section-seprator.png" alt="section-seprator" width="76" height="10" />
                     <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it was much more than a hunch the first mate.</p>
                 </div><!-- Section Header /- -->
                 <div class="call-us">
-                    <h5>any quries? call at</h5>
-                    <p><a href="tel:+1-92-345-7890" title="+1-92-345-7890"><i class="fa fa-phone" aria-hidden="true"></i>+1-92-345-7890</a></p>
+                    <h5>DÚVIDA liga para gente</h5>
+                    <p class="corAmarelo"><i class="fa fa-phone" aria-hidden="true"></i>62 3278-5151</p>
+                    <p class="corAmarelo"><i class="fa fa-whatsapp" aria-hidden="true"></i>62 9235-8068</p>
                 </div>
-                <h3 class="delivery-heading"><span>*</span>free delivery within 10km distance</h3>
+                <h3 class="delivery-heading"><span class="corAmarelo">*</span>ENTREGA GRATUITA DENTRO DE 10 KM DE DISTÂNCIA</h3>
             </div>
             <div class="col-md-7 col-sm-7 col-xs-12 order-left">
                 <div class="img-box">
                     <div class="order-box">
                         <div class="order-title">
-                            <h3>fill the order</h3>
+                            <h3>PEÇA JÁ</h3>
                         </div>
                         <form class="order-form">
                             <div class="form-group">
-                                <input type="text" required="" placeholder="Your Name *" class="form-control">
+                                <input type="text" required="" placeholder="NOME *" class="form-control">
                             </div>
                             <div class="form-group">
-                                <input type="text" required="" placeholder="Your EMail *" class="form-control">
+                                <input type="text" required="" placeholder="EMAIL *" class="form-control">
                             </div>
                             <div class="form-group">
-                                <input type="text" required="" placeholder="Your Phone Number *" class="form-control">
+                                <input type="text" required="" placeholder="TELEFONE *" class="form-control">
                             </div>
                             <div class="form-group">
                                 <select>
-                                    <option>SELECT YOUR FLAVOURS</option>
-                                    <option>SELECT YOUR FLAVOURS</option>
-                                    <option>SELECT YOUR FLAVOURS</option>
-                                    <option>SELECT YOUR FLAVOURS</option>
+                                    <option>SABORES</option>
+                                    <option>QUATRO QUEIJOS</option>
+                                    <option>CALABRESA</option>
+                                    <option>BACON</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <textarea placeholder="Your Address *" rows="6" class="form-control"></textarea>
+                                <textarea placeholder="ENDEREÇO *" rows="6" class="form-control"></textarea>
                             </div>
                             <input type="submit" title="Order Now" value="Order Now" name="Order Now">
                         </form>
@@ -146,20 +151,15 @@
             <div class="col-md-7 col-sm-7 col-xs-6 about-content">
                 <!-- Section Header -->
                 <div class="section-header left-header">
-                    <h3>Welcome to PizzaKitchen</h3>
-                    <h5>About Us</h5>
+                    <h3 class="corAmarelo">MONTE SUA PIZZA</h3>
+                    <h5>FaÇA SEU PEDIDO</h5>
                     <img src="images/section-seprator.png" alt="section-seprator" width="76" height="10" />
                 </div><!-- Section Header /- -->
                 <div class="about-box">
                     <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable its like a kind of torture to have to watch the show the ship set ground on the shore of this uncharted desert isle with too the millionaire and his wife If you have a problem if no one else can help  can hire Gilligan the Skipper.</p>
                     <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable.</p>
-                    <ul>
-                        <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" title="Google"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                    <a href="#" title="View More" class="view-more">View More</a>
+
+                    <a href="#" title="View More" class="view-more">saiba mais</a>
                 </div>
             </div>
         </div><!-- Container /- -->
@@ -174,8 +174,8 @@
         <div class="container">
             <!-- Section Header -->
             <div class="section-header">
-                <h3>Fresh From PizzaKitchen</h3>
-                <h5>OUR MENU</h5>
+                <h3>NOSSOS PRODUTOS</h3>
+                <h5>VENHA CONHECER</h5>
                 <img src="images/section-seprator.png" alt="section-seprator" width="76" height="10" />
                 <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable.</p>
             </div><!-- Section Header /- -->
@@ -260,7 +260,7 @@
                             <img src="images/menu-flavour.png" alt="menu-flavour" width="479" height="266" />
                             <h3>goldenchickendelight</h3>
                             <h5>Price: <span>$45</span></h5>
-                            <a href="#" title="Buy Now" class="buy-now">Buy Now</a>
+                            <a href="#" title="Buy Now" class="buy-now">SAIBA MAIS</a>
                         </div>
                     </div>
                 </div>
@@ -268,7 +268,9 @@
         </div><!-- Container /- -->
         <div class="section-padding"></div>
     </div><!-- Menu Section /- -->
-
+    
+    <!-- incluindo carousel do instagram -->
+<!--    <div id="instafeed" class="instafeed"></div>-->
 </main>
 
 
