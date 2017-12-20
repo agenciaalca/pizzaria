@@ -13,7 +13,7 @@
         <meta name="description" content="Pizza na Pedra A melhor pizza da cidade! Peça agora! 📞 62. 3278-5151 / 📱 62. 99235-8068 📍 Rua 115, Quadra 41-A, Lote 9 – Setor Sul">
         <meta name="author" content="Agência alca">
 
-        <title>PIZZA NA PEDRA</title>
+        <title>Pizza na Pedra</title>
 
         <!-- Standard Favicon -->
         <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
@@ -21,8 +21,6 @@
        
         <!-- Custom - Theme CSS -->
         
-        <link rel="stylesheet" type="text/css" href="libraries/lib.css">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.css">
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
         <link rel="stylesheet" type="text/css" href="css/slick.css">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -54,19 +52,19 @@
                         <div class="col-md-4 col-sm-6 col-xs-5 our-contacts">
                             <p class="foco">DELIVERY</p>
                             <p><i class="fa fa-phone"></i>62 3278-5151</p>
-                            <p><i class="fa fa-whatsapp"></i>62 99235-8068</p>
+                            <p><i class="fa fa-whatsapp"></i>62 9 9235-8068</p>
                         </div>
                         <div class="col-md-4 col-sm-2 col-xs-12 logo-block">
                             <a title="Logo" href="index.html" class="navbar-brand"><img src="images/logo-pizza-na-pedra.png" alt="logo" /></a>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-7 header-social">
                             <ul>
-                                <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/pizzanapedrago/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/pizzanapedrago/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                             <ul class="cart">
                                 <li>
-                                    <a aria-expanded="true" aria-haspopup="true" data-toggle="dropdown" id="cart" class="btn dropdown-toggle" title="peça online" href="#">PEÇA ONLINE</a>
+                                    <a aria-expanded="true" aria-haspopup="true" data-toggle="dropdown" id="cart" class="btn dropdown-toggle" title="peça online" href="https://www.entregaweb.com.br/empresa-v4.php?cep=74020200&cidade=Goi%C3%A2nia&id=114&categoria=1" target="_blank">PEÇA ONLINE</a>
                                 </li>
                             </ul>
                         </div>

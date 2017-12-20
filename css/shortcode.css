@@ -723,6 +723,7 @@
 .order-section .order-right-content {
 	width: 44.8958%;
 }
+
 .order-section .order-box {
 	background-image: url("../images/orderform-bg.jpg");
 	background-repeat: no-repeat;
@@ -802,16 +803,8 @@
 	color: #fbfbfb;
 	width: 100%;
 }
-
 .order-section .order-box .order-form  select option {
-	color: #000;
-}
-select option .opcao,
-select option .opcao:active,
-select option .opcao:focus,
-select option .opcao:hover {
 	color: #212121;
-        background-color: #ff0000;
 }
 .order-section .order-box .order-form textarea.form-control  {
 	height: 90px;

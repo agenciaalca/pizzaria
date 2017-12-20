@@ -7,7 +7,7 @@ var feed = new Instafeed({
     target: 'instafeed',
     after: function () {
         $('#instafeed').slick({
-            dots: true,
+            dots: false,
             infinite: true,
             slidesToShow: 10,
             slidesToScroll: 1,
@@ -19,8 +19,6 @@ var feed = new Instafeed({
                     settings: {
                         slidesToShow: 6,
                         slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
                     }
                 },
                 {
