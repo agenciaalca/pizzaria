@@ -167,34 +167,46 @@
             <div class="menu-details-tab">
                 <!-- Nav tabs -->
                 <ul class="col-md-12 no-padding nav nav-tabs" role="tablist">
-                    <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
+                    <li class="col-md-6 col-sm-12 col-xs-12" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/card1.jpg" alt="flavour"/></i></p>
+                            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                                <p><i><img src="images/card1.jpg" alt="cardápio - pizza na pedra"/></i></p>
+                            </a>
                         </div>
                     </li>
-                    <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
+                    <li class="col-md-6 col-sm-12 col-xs-12" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/card2.jpg" alt="flavour"/></i></p>
+                            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                                <p><i><img src="images/card2.jpg" alt="cardápio - pizza na pedra"/></i></p>
+                            </a>
                         </div>
                     </li>
-                    <li class="col-md-6 col-sm-6 col-xs-6 active" role="presentation">
+                    <li class="col-md-6 col-sm-12 col-xs-12 active" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/card3.jpg" alt="flavour"/></i></p>
+                            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                                <p><i><img src="images/card3.jpg" alt="cardápio - pizza na pedra"/></i></p>
+                            </a>
                         </div>
                     </li>
-                    <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
+                    <li class="col-md-6 col-sm-12 col-xs-12" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/card4.jpg" alt="flavour"/></i></p>
+                            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                                <p><i><img src="images/card4.jpg" alt="cardápio - pizza na pedra"/></i></p>
+                            </a>
                         </div>
                     </li>
-                    <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
+                    <li class="col-md-6 col-sm-12 col-xs-12" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/card5.jpg" alt="flavour"/></i></p>
+                            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                                <p><i><img src="images/card5.jpg" alt="cardápio - pizza na pedra"/></i></p>
+                            </a>
                         </div>
                     </li>
-                    <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
+                    <li class="col-md-6 col-sm-12 col-xs-12" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/card6.jpg" alt="flavour"/></i></p>
+                            <a href="#" data-toggle="modal" data-target="#lightbox"> 
+                                <p><i><img src="images/card6.jpg" alt="cardápio - pizza na pedra"/></i></p>
+                            </a>
                         </div>
                     </li>
                 </ul>
@@ -213,10 +225,21 @@
                     </div>
                 </div>
             </div><!-- Container /- -->
-        </div><!-- Menu Section /- -->
-        <div class="section-padding hidden-md hidden-lg"></div>
-        <!-- incluindo carousel do instagram -->
-        <div id="instafeed" class="instafeed"></div>
+            <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <img src="" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Menu Section /- -->
+    <div class="section-padding hidden-md hidden-lg"></div>
+    <!-- incluindo carousel do instagram -->
+    <div id="instafeed" class="instafeed"></div>
 </main>
 
 

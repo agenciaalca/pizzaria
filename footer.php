@@ -25,7 +25,7 @@
                     <input type="submit" title="Enviar" value="Enviar" name="btnContato">
                     <br>
                     <a name="formulario"></a>
-                    <div class="mensagem-alerta col-md-12"><?php echo $msg ?> teste de como fica</div>
+                    <div class="mensagem-alerta col-md-12"><?php echo $msg ?></div>
 
                 </form>
             </div>
@@ -59,6 +59,7 @@
 
 <!-- Library - Js -->
 <script src="js/jquery-3.2.1.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
+<script src="js/modal.js"></script><!-- Bootstrap JS File v3.3.5 -->
 <script src="js/instafeed.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
 <script src="js/slick.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
 <script src="js/instagramapi.js"></script><!-- Bootstrap JS File v3.3.5 -->

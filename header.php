@@ -49,12 +49,15 @@
                 <!-- Top Header  -->
                 <div class="top-header container-fluid no-padding">
                     <div class="row">
+                        <div class="col-md-4 col-sm-2 col-xs-12 hidden-lg hidden-md logo-block">
+                            <a title="Logo" href="index.html" class="navbar-brand"><img src="images/logo-pizza-na-pedra.png" alt="logo" /></a>
+                        </div>
                         <div class="col-md-4 col-sm-6 col-xs-5 our-contacts">
                             <p class="foco">DELIVERY</p>
                             <p><i class="fa fa-phone"></i>62 3278-5151</p>
                             <p><i class="fa fa-whatsapp"></i>62 9 9235-8068</p>
                         </div>
-                        <div class="col-md-4 col-sm-2 col-xs-12 logo-block">
+                        <div class="col-md-4 col-sm-2 col-xs-12 logo-block hidden-xs hidden-sm">
                             <a title="Logo" href="index.html" class="navbar-brand"><img src="images/logo-pizza-na-pedra.png" alt="logo" /></a>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-7 header-social">
@@ -82,7 +85,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a title="Logo" href="index.html" class="navbar-brand logo1"><img src="images/logo-pizza-na-pedra.png" alt="logo" /></a>
+                            <!--<a title="Logo" href="index.html" class="navbar-brand logo1"><img src="images/logo-pizza-na-pedra.png" alt="logo" /></a>-->
                         </div>
                         <div class="navbar-collapse collapse" id="navbar">
                             <ul class="nav navbar-nav">
