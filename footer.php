@@ -54,15 +54,16 @@
 
 <!-- JQuery v1.12.4 -->
 <!--<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>-->
-<script src="js/jquery-1.12.4.min.js"></script>
+<!--<script src="js/jquery-1.12.4.min.js"></script>-->
+<script src="js/jquery-3.2.1.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
 <script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
 
 <!-- Library - Js -->
-<script src="js/jquery-3.2.1.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
 <script src="js/modal.js"></script><!-- Bootstrap JS File v3.3.5 -->
 <script src="js/instafeed.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
 <script src="js/slick.min.js"></script><!-- Bootstrap JS File v3.3.5 -->
 <script src="js/instagramapi.js"></script><!-- Bootstrap JS File v3.3.5 -->
+<script src="js/scrollspy.js"></script><!-- Bootstrap JS File v3.3.5 -->
 
 
 <!-- Library - Theme JS -->

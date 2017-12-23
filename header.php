@@ -21,6 +21,8 @@
        
         <!-- Custom - Theme CSS -->
         
+        
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
         <link rel="stylesheet" type="text/css" href="css/slick.css">
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -31,7 +33,7 @@
 
     </head>
 
-    <body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
+    <body>
         <!-- Loader -->
         <div id="site-loader" class="load-complete">
             <div class="loader">
@@ -79,7 +81,7 @@
                     <!-- Navigation -->
                     <nav class="navbar ow-navigation">
                         <div class="navbar-header">
-                            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                            <button aria-controls="navbar" aria-expanded="false" data-target="#myNavbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -87,7 +89,7 @@
                             </button>
                             <!--<a title="Logo" href="index.html" class="navbar-brand logo1"><img src="images/logo-pizza-na-pedra.png" alt="logo" /></a>-->
                         </div>
-                        <div class="navbar-collapse collapse" id="navbar">
+                        <div class="navbar-collapse collapse" id="myNavbar">
                             <ul class="nav navbar-nav">
 
                                 <li><a href="#home" title="Home">Home</a></li>
