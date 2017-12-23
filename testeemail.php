@@ -1,56 +1,13 @@
 <?php
+include 'header.php';
+if (isset($_POST['BTEnvia'])) {
 
-$msg = "";
-$msgSugestao = "";
-
-if (isset($_POST['btnSugestao'])) {
-    
-    echo 'entrei aqui';
-
-    $nome = $_POST['fsNome'];
-    $email = $_POST['fsEmail'];
-    $telefone = $_POST['fsTelefone'];
-    if (empty($telefone)){
-        $telefone = "Telefone não preenchido";
-    }
-    $sugestao = $_POST['fsSugestao'];
-    
-
-    $formcontent = "SUGESTÃO DE SABORES - PIZZA NA PEDRA\n"
-            . "\nDe: " . $nome
-            . "\nEmail: " . $email
-            . "\nTelefone: " . $telefone
-            . "\nMensagem: " . $sugestao;
-
-    $recipient = "cristiane@agenciaalca.com";
-    $subject = "Formulário de Contato - Pizza na Pedra";
-    $mailheader = "De: " . $email . "\r\n";
-
-
-    if (mail($recipient, $subject, $formcontent, $mailheader)) {
-        $msgSugestao = '<div class="alert alert-success alert-dismissable">
-                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Sugestão enviada com sucesso!</strong> 
-            </div>';
-    } else {
-        $msgSugestao = '<div class="alert alert-danger alert-dismissable">
-                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Erro ao enviar, tente novamente! </strong> 
-            </div>';
-    }
-}
-
-if (isset($_POST['btnContato'])) {
-
+    //Variaveis de POST, Alterar somente se necessário 
     //====================================================
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $telefone = $_POST['telefone'];
     $mensagem = $_POST['mensagem'];
-    
-     if (empty($telefone)){
-        $telefone = "Não preenchido";
-    }
     //====================================================
     //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
     //==================================================== 
@@ -64,11 +21,10 @@ if (isset($_POST['btnContato'])) {
     //====================================================
     //Monta o Corpo da Mensagem
     //====================================================
-    $email_conteudo = "FORMULÁRIO DE CONTATO\n"
-            . "\n<b>De:</b> " . $nome
-            . "\n<b>Email:</b> " . $email
-            . "\n<b>Telefone:</b> " . $telefone
-            . "\n<b>Mensagem:</b> " . $mensagem;
+    $email_conteudo = "<b>Nome:</b> = $nome \n";
+    $email_conteudo .= "<b>Email:</b> = $email \n";
+    $email_conteudo .= "<b>Telefone</b> = $telefone \n";
+    $email_conteudo .= "<b>Mensagem</b> = $mensagem \n";
     //====================================================
     //Seta os Headers (Alterar somente caso necessario) 
     //==================================================== 
@@ -77,18 +33,39 @@ if (isset($_POST['btnContato'])) {
     //Enviando o email 
     //==================================================== 
     if (mail($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)) {
-       $msg = '<div class="alert alert-success alert-dismissable">
+        echo '<div class="alert alert-success alert-dismissable">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                 <strong>Mensagem enviada com sucesso!</strong> 
             </div>';
     } else {
-        $msg = '<div class="alert alert-danger alert-dismissable">
+        echo '<div class="alert alert-danger alert-dismissable">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                 <strong>Erro ao enviar a mensagem, tente novamente! </strong> 
             </div>';
     }
     //====================================================
-
 }
 ?>
 
+<form action="<? $PHP_SELF; ?>" method="POST"> 
+    <p> 
+        Nome:<br /> 
+        <input type="text" size="30" name="nome"> 
+    </p>   
+    <p> 
+        E-mail:<br /> 
+        <input type="text" size="30" name="email">		
+    </p>   
+    <p> 
+        Telefone:<br /> 
+        <input type="text" size="35" name="telefone"> 
+    </p>   
+    <p> 
+        Mensagem:<br /> 
+        <input type="text" size="35" name="mensagem"> 
+    </p>   
+    <p>
+        <input type="submit" name="BTEnvia" value="Enviar"> 
+        <input type="reset" name="BTApaga" value="Apagar">
+    </p>
+<?= include 'footer.php'; ?>

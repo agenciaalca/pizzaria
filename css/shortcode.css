@@ -314,7 +314,10 @@
 	position: relative;
 }
 .about-section .col-md-5.col-sm-5.col-xs-6.about-img {
-	margin-top: 0;
+	margin-top: 10%;
+}
+.about-section .col-md-5.col-sm-5.col-xs-6.about-img img{
+    height: 350px;
 }
 .about-section .col-md-5.col-sm-5.col-xs-6.about-img-1 {
 	margin-top: 0;
@@ -433,7 +436,7 @@
 	margin-bottom: 55px;
 	display: inline-block;
 }
-.menu-section .menu-details-tab .nav > li  a {
+.menu-section .menu-details-tab .nav > li  p {
 	border-radius: 0;
 	color: #222;
 	display: inline-block;
@@ -451,7 +454,7 @@
 	text-decoration: none;
 }
 
-.menu-section .menu-details-tab .nav > li  a > span {
+.menu-section .menu-details-tab .nav > li  p > span {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -459,15 +462,8 @@
 	margin: 0 auto;
 	text-align: center;
 }
-.menu-section .menu-details-tab .nav > li  a:focus,
-.menu-section .menu-details-tab .nav > li  a:hover,
-.menu-section .menu-details-tab .nav-tabs > li.active  a,
-.menu-section .menu-details-tab .nav-tabs > li.active  a:focus,
-.menu-section .menu-details-tab .nav-tabs > li.active  a:hover {
-	background-color: transparent;
-	border-color: #FF0000;
-}
-.menu-section .menu-details-tab .nav > li  a > i {
+
+.menu-section .menu-details-tab .nav > li  p > i {
 	min-height: 160px;
 	display: inline-block;
 	line-height: 160px;

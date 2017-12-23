@@ -6,20 +6,26 @@
         <!-- Widget About -->
         <aside class="col-md-8 col-sm-12 col-xs-12 ftr-widget about-widget">
             <div class="order-box">
-                <form class="order-form">
+                <form class="order-form"  method="post" action="index.php#formulario" name="formulario-contato" data-toggle="validator" role="form">>
                     <div class="form-group">
-                        <input type="text" required="" placeholder="Seu nome.." class="form-control">
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome.." class="form-control" required />
+                        <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group">
-                        <input type="text" required="" placeholder="Seu email.. " class="form-control">
+                        <input type="text" id="email" name="email"  placeholder="Seu email.. " class="form-control" required />
+                        <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group">
-                        <input type="text" required="" placeholder="Seu telefone.." class="form-control">
+                        <input type="text" id="telefone" name="telefone"  placeholder="Seu telefone.." class="form-control">
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Sua mensagem.." rows="6" class="form-control"></textarea>
+                        <textarea id="mensagem" name="mensagem"  placeholder="Sua mensagem.." rows="6" class="form-control" required></textarea>
+                        <div class="help-block with-errors"></div>
                     </div>
-                    <input type="submit" title="Enviar" value="Enviar" name="Enviar">
+                    <input type="submit" title="Enviar" value="Enviar" name="btnContato">
+                    <br>
+                    <a name="formulario"></a>
+                    <div class="mensagem-alerta col-md-12"><?php echo $msg ?> teste de como fica</div>
 
                 </form>
             </div>
@@ -32,8 +38,8 @@
             <h3>Contato</h3>
             <img src="images/section-seprator.png" alt="quote-ic" />
             <div class="contact-info">
-                <p><span>Endereço:</span>Rua 115, Quadra 41-A, Lote 9 – Setor Sul.</p>
-                <p><span>Telefones:</span>62. 3278-5151 <br>62. 9 9235-8068</p>
+                <p><span><img src="images/endereco.png" width="30px"></span>Rua 115, Quadra 41-A, Lote 9 – Setor Sul.</p>
+                <p><span><img src="images/fone.png" width="30px"></span>62. 3278-5151 <br>62. 9 9235-8068</p>
                 <ul>
                     <li><a href="https://www.facebook.com/pizzanapedrago/" target="_blank" title="Facebbok"><i class="fa fa-facebook corAmarelo"></i></a></li>
                     <li><a href="https://www.instagram.com/pizzanapedrago/" target="_blank" title="Instagram"><i class="fa fa-instagram corAmarelo"></i></a></li>
