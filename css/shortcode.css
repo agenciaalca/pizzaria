@@ -313,11 +313,11 @@
 .about-section {
 	position: relative;
 }
-.about-section .col-md-5.col-sm-5.col-xs-6.about-img {
+/*.about-section .col-md-5.col-sm-5.col-xs-6.about-img {
 	margin-top: 10%;
-}
+}*/
 .about-section .col-md-5.col-sm-5.col-xs-6.about-img img{
-    height: 350px;
+    margin-top: 80px;
 }
 .about-section .col-md-5.col-sm-5.col-xs-6.about-img-1 {
 	margin-top: 0;
@@ -326,9 +326,8 @@
 	margin-bottom: 20px;
 }
 .about-section .about-content {
-	padding-top: 150px;
-	padding-bottom: 150px;
-	padding-left: 100px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .about-section .left-header {
 	text-align: left;
@@ -703,7 +702,7 @@
 }
 /* - Order Section */
 .order-section .order-left {
-	padding-top: 100px; 
+	padding-top: 70px; 
 	width: 55.1042%;
 	position: relative;
 }
@@ -847,7 +846,7 @@
 }
 
 .order-section .order-right-content {
-	padding-top: 100px; 
+	padding-top: 70px; 
 	padding-left: 50px;
 }
 .order-section .order-right-content .left-heder {

@@ -36,7 +36,6 @@
         <!-- Widget Contact -->
         <aside class="col-md-4 col-sm-6 col-xs-6 ftr-widget contact-widget">
             <h3>Contato</h3>
-            <img src="images/section-seprator.png" alt="quote-ic" />
             <div class="contact-info">
                 <p><span><img src="images/endereco.png" width="30px"></span>Rua 115, Quadra 41-A, Lote 9 – Setor Sul.</p>
                 <p><span><img src="images/fone.png" width="30px"></span>62. 3278-5151 <br>62. 9 9235-8068</p>
@@ -47,7 +46,7 @@
             </div>
         </aside><!-- Widget Contact /- -->
         <div class="bottom-footer">
-            <p>&copy; PIZZA NA PEDRA. ALL RIGHTS RESERVED</p>
+            <p>&copy;. ALL RIGHTS RESERVED. DESENVOLVIDO POR <a href="http://agenciaalca.com/"></a>AGÊNCIA ALCA</p>
 
         </div>
     </div><!-- Container /- -->

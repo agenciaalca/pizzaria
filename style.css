@@ -192,8 +192,7 @@ a {
 
 /* - Section Padding */
 .section-padding {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 70px;
 }
 
 /* * Fonts Settings */
@@ -530,6 +529,7 @@ main,footer {
     padding-left: 0;
     margin-top: 25px;
     margin-bottom: 0;
+    text-align: center;
 }
 .footer-main .contact-widget ul li {
     display: inline-block;
@@ -659,7 +659,7 @@ main,footer {
 
 .section-header {
     text-align: center;
-    margin-bottom: 85px;
+    margin-bottom: 30px;
 }
 .section-header h3 {
     color: #FF0000;
@@ -800,4 +800,13 @@ main,footer {
 /* -  max-width: 479 */
 @media (max-width: 479px) {
 
+}
+
+div#features-section {
+    margin-bottom: 30px;
+}
+
+.app{
+    width: 190px;
+    margin-bottom: 20px;
 }

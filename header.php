@@ -64,7 +64,7 @@
                             </ul>
                             <ul class="cart">
                                 <li>
-                                    <a aria-expanded="true" aria-haspopup="true" data-toggle="dropdown" id="cart" class="btn dropdown-toggle" title="peça online" href="https://www.entregaweb.com.br/empresa-v4.php?cep=74020200&cidade=Goi%C3%A2nia&id=114&categoria=1" target="_blank">PEÇA ONLINE</a>
+                                    <a class="btn dropdown-toggle" title="peça online" href="https://www.entregaweb.com.br/empresa-v4.php?cep=74020200&cidade=Goi%C3%A2nia&id=114&categoria=1" target="_blank">PEÇA ONLINE</a>
                                 </li>
                             </ul>
                         </div>
@@ -87,12 +87,11 @@
                         <div class="navbar-collapse collapse" id="navbar">
                             <ul class="nav navbar-nav">
 
-                                <li><a href="index.php" title="Services">Home</a></li>
-                                <li><a href="#servicos" title="Serviços">Serviços</a></li>
-                                <li><a title="peça já" href="#pecaja">peça já</a></li>
-                                <li><a title="Sobre nós" href="#sobre">sobre nós</a></li>
-                                <li><a title="Cardápio" href="#cardapio">cardápio</a></li>
-                                <li><a title="Contato" href="#contato">contato</a></li>
+                                <li><a href="#home" title="Home">Home</a></li>
+                                <li><a href="#sobre" title="Sobre nós">Sobre nós</a></li>
+                                <li><a href="#features-section" title="Buffet">Buffet</a></li>
+                                <li><a href="#cardapio" title="Cardápio">Cardápio</a></li>
+                                <li><a href="#footer-main" title="Contato">Contato</a></li>
                             </ul>						
                         </div>
                     </nav><!-- Navigation -->

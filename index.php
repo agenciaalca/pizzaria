@@ -1,35 +1,35 @@
 <?php include_once 'header.php'; ?>
 <?php include_once 'mail.php'; ?>
 
-<main class="site-main page-spacing">
+<main class="site-main page-spacing" id="home">
     <!-- Photo Slider -->
     <div class="photo-slider container-fluid no-padding">
         <!-- Main Carousel -->
         <div id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div role="listbox" class="carousel-inner">
                 <div class="item active">
-                    <img width="1920" height="960" alt="slider" src="images/banner1.png" alt="Banner - Pizza Na Pedra">
+                    <img width="1920" height="500" alt="slider" src="images/slide1.jpg" alt="Banner - Pizza Na Pedra">
                     <div class="carousel-caption">
-                        <h3>Pizza makes me think that anything is possible</h3>
-                        <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p>
+                        <h3>Pizza mais recheada de Goiânia</h3>
+                        <!-- <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p> -->
                     </div>
-                    <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span>
+                    <!-- <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span> -->
                 </div>
                 <div class="item">
-                    <img width="1920" height="960" alt="slider" src="images/banner2.png" alt="Banner - Pizza Na Pedra">
+                    <img width="1920" height="500" alt="slider" src="images/slide2.jpg" alt="Banner - Pizza Na Pedra">
                     <div class="carousel-caption">
-                        <h3>Pizza makes me think that anything is possible</h3>
-                        <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p>
+                        <h3>O melhor BUFFET da cidade</h3>
+                        <!-- <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p> -->
                     </div>
-                    <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span>
+                    <!-- <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span> -->
                 </div>
                 <div class="item">
-                    <img width="1920" height="960" alt="slider" src="images/banner3.png" alt="Banner - Pizza Na Pedra">
+                    <img width="1920" height="500" alt="slider" src="images/slide3.jpg" alt="Banner - Pizza Na Pedra">
                     <div class="carousel-caption">
-                        <h3>Pizza makes me think that anything is possible</h3>
-                        <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p>
+                        <h3>Todos os dias pelo menos uma promoção no nosso aplicativo</h3>
+                        <!-- <p>The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it hunch the first mate.</p> -->
                     </div>
-                    <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span>
+                    <!-- <span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce" aria-hidden="true"></i>scroll down</a></span> -->
                 </div>
                 <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
                     <i class="fa fa-caret-left" aria-hidden="true"></i>
@@ -44,11 +44,11 @@
 
 
     <!-- About Section -->
-    <div class="about-section container-fluid no-padding">
+    <div class="about-section container-fluid no-padding" id="sobre">
         <!-- Container -->
         <div class="container">
             <div class="col-md-5 col-sm-5 col-xs-6 about-img">
-                <img src="images/sobre_fachada.png" alt="about"  />
+                <img src="images/sobre.jpg" alt="Sobre"  />
             </div>
             <div class="col-md-7 col-sm-7 col-xs-6 about-content">
                 <!-- Section Header -->
@@ -74,25 +74,24 @@
             <div class="section-header">
                 <h3>Buffet Pizza na Pedra</h3>
                 <!-- <h5>Pizzada</h5> -->
-                <img src="images/section-seprator.png" alt="section-seprator" width="76" height="10" />
             </div><!-- Section Header /- -->
             <div class="col-md-4 col-xs-6 col-xs-6">
                 <div class="features-content">
-                    <img src="images/pizza_1.png" alt="features-ic"  />
+                    <!-- <img src="images/pizza_1.png" alt="features-ic"  /> -->
                     <h3>Conforto</h3>
                     <p>Levamos o forno e assamos todas as pizzas na hora, dentre 12 sabores que você escolhe do nosso cardápio de 40 diferentes pizzas.</p>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6 col-xs-6">
                 <div class="features-content">
-                    <img src="images/pizza_2.png" alt="features-ic"  />
+                    <!-- <img src="images/pizza_2.png" alt="features-ic"  /> -->
                     <h3>Incluso</h3>
                     <p>Coca Cola, Guaraná Antarctica, Suco de Uva, Pêssego, Laranja e Água mineral sem gás.</p>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6 col-xs-6">
                 <div class="features-content">
-                    <img src="images/pizza_3.png" alt="features-ic"  />
+                    <!-- <img src="images/pizza_3.png" alt="features-ic"  /> -->
                     <h3>Cortesia</h3>
                     <p>Pensando na melhor estrutura para você, nós ainda disponibilizamos Pratos, Copos e Talheres.</p>
                 </div>
@@ -152,7 +151,7 @@
     </div><!-- Order Section 2 -->
 
     <!-- Menu Section -->
-    <div class="menu-section container-fluid no-padding">
+    <div class="menu-section container-fluid no-padding" id="cardapio">
         <div class="section-padding"></div>
         <!-- Container -->
         <div class="container">
@@ -160,7 +159,6 @@
             <div class="section-header">
                 <h3>NOSSAS PIZZAS</h3>
                 <h5>E nosso Aplicativo</h5>
-                <img src="images/section-seprator.png" alt="section-seprator" width="76" height="10" />
                 <p>Nós temos 40 sabores diferentes de pizzas, todas contemplando nosso maior diferencial: <strong>O Recheio</strong>. <br>
                     Temos a pizza mais recheada e saborosa de Goiânia ;)<br>
                     Para ver nosso cardápio completo, baixe nosso aplicativo "<strong>Pizza na Pedra - Oficial</strong>", disponível para Android e iOS.</p>
@@ -171,32 +169,32 @@
                 <ul class="col-md-12 no-padding nav nav-tabs" role="tablist">
                     <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/1_.png" alt="flavour"/></i>California</p>
+                            <p><i><img src="images/card1.jpg" alt="flavour"/></i></p>
                         </div>
                     </li>
                     <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/2_.png" alt="flavour"/></i>Calabresa</p>
+                            <p><i><img src="images/card2.jpg" alt="flavour"/></i></p>
                         </div>
                     </li>
                     <li class="col-md-6 col-sm-6 col-xs-6 active" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/3_.png" alt="flavour"/></i>Carne Seca</p>
+                            <p><i><img src="images/card3.jpg" alt="flavour"/></i></p>
                         </div>
                     </li>
                     <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/4_.png" alt="flavour"/></i>Frango com Catupiry</p>
+                            <p><i><img src="images/card4.jpg" alt="flavour"/></i></p>
                         </div>
                     </li>
                     <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/5_.png" alt="flavour"/></i>Moda</p>
+                            <p><i><img src="images/card5.jpg" alt="flavour"/></i></p>
                         </div>
                     </li>
                     <li class="col-md-6 col-sm-6 col-xs-6" role="presentation">
                         <div class="col-md-6 col-sm-6 col-xs-4">
-                            <p><i><img src="images/6_.png" alt="flavour"/></i>Pizza na Pedra</p>
+                            <p><i><img src="images/card6.jpg" alt="flavour"/></i></p>
                         </div>
                     </li>
                 </ul>
@@ -204,7 +202,7 @@
                 <div class="tab-content col-md-6 col-sm-6 col-xs-12 menu-center">
                     <div role="tabpanel" class="tab-pane active" id="margheritapizza">
                         <div class="menu-content-box">
-                            <img src="images/menu-flavour.png" alt="menu-flavour" width="479" height="266" />
+                            <img src="images/app.jpeg" alt="app" class="app" />
                             <br>
                             <h3>Pizza na Pedra - Oficial</h3>
                             <h5>Clique no link do Sistema Operacional do seu celular.</h5>
