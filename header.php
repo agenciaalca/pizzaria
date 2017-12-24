@@ -94,9 +94,9 @@
 
                                 <li><a href="#home" title="Home">Home</a></li>
                                 <li><a href="#sobre" title="Sobre nós">Sobre nós</a></li>
-                                <li><a href="#features-section" title="Buffet">Buffet</a></li>
+                                <li><a href="#buffet" title="Buffet">Buffet</a></li>
                                 <li><a href="#cardapio" title="Cardápio">Cardápio</a></li>
-                                <li><a href="#footer-main" title="Contato">Contato</a></li>
+                                <li><a href="#contato" title="Contato">Contato</a></li>
                             </ul>						
                         </div>
                     </nav><!-- Navigation -->

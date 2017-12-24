@@ -68,36 +68,37 @@
 
     <!-- Features Section -->
     <div id="features-section" class="features-section container-fluid no-padding">
-        <!-- Container -->
-        <div class="container">
-            <!-- Section Header -->
-            <div class="section-header">
-                <h3>Buffet Pizza na Pedra</h3>
-                <!-- <h5>Pizzada</h5> -->
-            </div><!-- Section Header /- -->
-            <div class="col-md-4 col-xs-6 col-xs-6">
-                <div class="features-content">
-                    <!-- <img src="images/pizza_1.png" alt="features-ic"  /> -->
-                    <h3>Conforto</h3>
-                    <p>Levamos o forno e assamos todas as pizzas na hora, dentre 12 sabores que você escolhe do nosso cardápio de 40 diferentes pizzas.</p>
+        <div id="buffet">
+            <!-- Container -->
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <h3>Buffet Pizza na Pedra</h3>
+                    <!-- <h5>Pizzada</h5> -->
+                </div><!-- Section Header /- -->
+                <div class="col-md-4 col-xs-6 col-xs-6">
+                    <div class="features-content">
+                        <!-- <img src="images/pizza_1.png" alt="features-ic"  /> -->
+                        <h3>Conforto</h3>
+                        <p>Levamos o forno e assamos todas as pizzas na hora, dentre 12 sabores que você escolhe do nosso cardápio de 40 diferentes pizzas.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-xs-6 col-xs-6">
-                <div class="features-content">
-                    <!-- <img src="images/pizza_2.png" alt="features-ic"  /> -->
-                    <h3>Incluso</h3>
-                    <p>Coca Cola, Guaraná Antarctica, Suco de Uva, Pêssego, Laranja e Água mineral sem gás.</p>
+                <div class="col-md-4 col-xs-6 col-xs-6">
+                    <div class="features-content">
+                        <!-- <img src="images/pizza_2.png" alt="features-ic"  /> -->
+                        <h3>Incluso</h3>
+                        <p>Coca Cola, Guaraná Antarctica, Suco de Uva, Pêssego, Laranja e Água mineral sem gás.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-xs-6 col-xs-6">
-                <div class="features-content">
-                    <!-- <img src="images/pizza_3.png" alt="features-ic"  /> -->
-                    <h3>Cortesia</h3>
-                    <p>Pensando na melhor estrutura para você, nós ainda disponibilizamos Pratos, Copos e Talheres.</p>
+                <div class="col-md-4 col-xs-6 col-xs-6">
+                    <div class="features-content">
+                        <!-- <img src="images/pizza_3.png" alt="features-ic"  /> -->
+                        <h3>Cortesia</h3>
+                        <p>Pensando na melhor estrutura para você, nós ainda disponibilizamos Pratos, Copos e Talheres.</p>
+                    </div>
                 </div>
-            </div>
-        </div><!-- Container /- -->
-
+            </div><!-- Container /- -->
+        </div>
     </div><!-- Features Section /- -->
 
 
