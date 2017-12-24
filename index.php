@@ -215,7 +215,7 @@
                 <div class="tab-content col-md-6 col-sm-6 col-xs-12 menu-center">
                     <div role="tabpanel" class="tab-pane active" id="margheritapizza">
                         <div class="menu-content-box">
-                            <img src="images/app.jpeg" alt="app" class="app" />
+                            <img src="images/app.jpg" alt="app" class="app" />
                             <br>
                             <h3>Pizza na Pedra - Oficial</h3>
                             <h5>Clique no link do Sistema Operacional do seu celular.</h5>
