@@ -52,7 +52,7 @@
             </div>
             <div class="col-md-7 col-sm-7 col-xs-6 about-content">
                 <!-- Section Header -->
-                <div class="section-header left-header">
+                <div class="section-header">
                     <h3 class="corAmarelo">A PIZZA NA PEDRA</h3>
                     <h5>Sobre nós</h5>
                 </div><!-- Section Header /- -->
@@ -76,21 +76,21 @@
                     <h3>Buffet Pizza na Pedra</h3>
                     <!-- <h5>Pizzada</h5> -->
                 </div><!-- Section Header /- -->
-                <div class="col-md-4 col-xs-6 col-xs-6">
+                <div class="col-md-4 col-sm-12">
                     <div class="features-content">
                         <!-- <img src="images/pizza_1.png" alt="features-ic"  /> -->
                         <h3>Conforto</h3>
                         <p>Levamos o forno e assamos todas as pizzas na hora, dentre 12 sabores que você escolhe do nosso cardápio de 40 diferentes pizzas.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-6 col-xs-6">
+                <div class="col-md-4 col-sm-12">
                     <div class="features-content">
                         <!-- <img src="images/pizza_2.png" alt="features-ic"  /> -->
                         <h3>Incluso</h3>
                         <p>Coca Cola, Guaraná Antarctica, Suco de Uva, Pêssego, Laranja e Água mineral sem gás.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-6 col-xs-6">
+                <div class="col-md-4 col-sm-12">
                     <div class="features-content">
                         <!-- <img src="images/pizza_3.png" alt="features-ic"  /> -->
                         <h3>Cortesia</h3>
@@ -168,14 +168,14 @@
             <div class="menu-details-tab">
                 <!-- Nav tabs -->
                 <ul class="col-md-12 no-padding nav nav-tabs" role="tablist">
-                    <li class="col-md-6 col-sm-12 col-xs-12" role="presentation">
+                    <li class="col-md-6 col-sm-12 col-xs-12">
                         <div class="col-md-6 col-sm-6 col-xs-4">
                             <a href="#" data-toggle="modal" data-target="#lightbox"> 
                                 <p><i><img src="images/card1.jpg" alt="cardápio - pizza na pedra"/></i></p>
                             </a>
                         </div>
                     </li>
-                    <li class="col-md-6 col-sm-12 col-xs-12" role="presentation">
+                    <li class="col-md-6 col-sm-12 col-xs-12">
                         <div class="col-md-6 col-sm-6 col-xs-4">
                             <a href="#" data-toggle="modal" data-target="#lightbox"> 
                                 <p><i><img src="images/card2.jpg" alt="cardápio - pizza na pedra"/></i></p>
